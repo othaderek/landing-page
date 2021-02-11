@@ -1,6 +1,6 @@
 <template>
 <div>
-    <div v-for="link in linkItems" v-bind:key="link.id">
+    <div v-for="link in linkItems" v-bind:key="link.id" class="container">
         <LinkItem v-bind:link="link"/>
     </div>
 </div>
