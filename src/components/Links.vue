@@ -14,20 +14,21 @@ export default {
     data(){
         return {
             linkItems: [
+                
                 {
                     id: 1,
-                    title: "Instagram",
-                    link: "https://www.instagram.com/_odhp_"
-                },
-                                {
-                    id: 2,
                     title: "Spotify",
                     link: "https://distrokid.com/hyperfollow/othaderekhernandezpena/our-june"
                 },
                 {
-                    id: 3,
+                    id: 2,
                     title: "Youtube",
                     link: "https://youtu.be/FDUKjMiDIuc"
+                },
+                {
+                    id: 3,
+                    title: "Instagram",
+                    link: "https://www.instagram.com/_odhp_"
                 }
             ]
         }

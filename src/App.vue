@@ -1,16 +1,19 @@
 <template>
   <div id="app">
+    <Header />
     <Links/>
   </div>
 </template>
 
 <script>
 import Links from './components/Links'
+import Header from './components/layout/Header'
 
 export default {
   name: 'App',
   components: {
-    Links
+    Links,
+    Header
   }
 }
 </script>
@@ -32,10 +35,11 @@ export default {
     color: #fff;
     padding: 7px 20px;
     cursor: pointer;
-    width: 100%;
+    height: auto;
+    width: auto;
     margin-bottom: 10px;
-    min-width: 600px;
-    max-width: 680px;
+    min-width: 640px;
+    max-width: 640px;
     min-height: 45px;
     max-height: 50px;
 
