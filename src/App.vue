@@ -19,16 +19,18 @@ export default {
 </script>
 
 <style>
+  @media only screen and (min-width: 640px) {
+    .link {
+
+    }
+  }
   body {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Tahoma, Verdana, sans-serif;
-    line-height: 1.4;
-    background: linear-gradient(90deg, rgba(34,0,36,1) 0%, rgba(109,9,121,1) 35%, rgba(255,139,0,1) 100%);
+    background: linear-gradient(to right, rgba(34,0,36,1) 0%, rgba(109,9,121,1) 50%, rgba(255,139,0,1) 100%) fixed;
   }
-
-  
   .link {
     display: inline-block;
     border: 2px solid white;
