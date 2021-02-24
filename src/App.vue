@@ -35,6 +35,9 @@ export default {
     @media only screen and (max-width: $phone){
       min-width: $phone;
     }
+    @media only screen and (max-width: $tablet){
+      min-width: $tablet;
+    }
   }
   .link {
     display: inline-block;
@@ -51,6 +54,9 @@ export default {
     max-height: 50px;
     @media only screen and (max-width: $phone){
       min-width: 200px;
+    }
+    @media only screen and (max-width: $tablet){
+      min-width: 600px;
     }
   }
   .text{
