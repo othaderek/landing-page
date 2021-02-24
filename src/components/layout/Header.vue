@@ -16,6 +16,7 @@ export default {
         color: white;
         justify-content: center;
         text-align: center;
+        position: relative;
     }
     #image{
         justify-content: center;
