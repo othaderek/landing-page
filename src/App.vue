@@ -32,12 +32,6 @@ export default {
     background: linear-gradient(to right, rgba(34,0,36,1) 0%, rgba(109,9,121,1) 50%, rgba(255,139,0,1) 100%) fixed;
     width: 100%;
     position: relative;
-    @media only screen and (max-width: $phone){
-      min-width: $phone;
-    }
-    @media only screen and (max-width: $tablet){
-      min-width: $tablet;
-    }
   }
   .link {
     display: inline-block;
@@ -52,12 +46,6 @@ export default {
     max-width: 640px;
     min-height: 45px;
     max-height: 50px;
-    @media only screen and (max-width: $phone){
-      min-width: 200px;
-    }
-    @media only screen and (max-width: $tablet){
-      min-width: 600px;
-    }
   }
   .text{
     vertical-align: middle;
@@ -67,5 +55,26 @@ export default {
   .link:hover {
     background: #fff;
     color: rgba(34,0,36,1);
+  }
+
+  @media only screen and (max-width: $phone){
+    body{
+      min-width: $phone;
+    }
+  }
+  @media only screen and (max-width: $tablet){
+    body{
+      min-width: $tablet;
+    }
+  @media only screen and (max-width: $phone){
+      .link{
+        min-width: 200px;
+      }
+    }
+  @media only screen and (max-width: $tablet){
+      .link{
+        min-width: 600px;
+      }
+    }
   }
 </style>
